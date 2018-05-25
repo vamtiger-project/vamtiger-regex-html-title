@@ -23,7 +23,7 @@ const regex = require('vamtiger-regex-html-title').default;
 
 [VAMTIGER Regex HTML Title](https://github.com/vamtiger-project/vamtiger-regex-html-title) can then be used to test whether a defined input string contains a _HTML_ **Title**:
 ```javascript
-import regex from 'vamtiger-regex-html-title';
+const regex = require('vamtiger-regex-html-title').default;
 
 const input = `
 <!DOCTYPE html>
@@ -51,8 +51,9 @@ const match = input.match(regex);
 
 Named capture groups can be referenced when used together with [XRegExp](https://www.npmjs.com/package/xregexp):
 ```javascript
-import * as XRegExp from 'xregexp';
-import {default as regex, Match} from 'vamtiger-regex-html-title';
+const XRegExp = require('xregexp');
+const regex = require('vamtiger-regex-html-title').default;
+// import {default as regex, Match} from 'vamtiger-regex-html-title'; // Typescript
 const input = `
 <!DOCTYPE html>
 <html lang="en">
