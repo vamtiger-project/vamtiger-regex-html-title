@@ -1,4 +1,4 @@
-# VAMTIGER Bash
+# VAMTIGER Regex HTML Title
 A [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) to match an HTML **_title_** for a defined input string.
 
 ## Installation
@@ -35,7 +35,7 @@ const input = `
     <title>Some HTML Title</title>
 </head>
 <body>
-    
+
 </body>
 </html>
 `;
@@ -64,7 +64,7 @@ const input = `
     <title>Some HTML Title</title>
 </head>
 <body>
-    
+
 </body>
 </html>
 `;
