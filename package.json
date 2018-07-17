@@ -1,6 +1,6 @@
 {
     "name": "vamtiger-regex-html-title",
-    "version": "0.0.5-0",
+    "version": "0.0.5",
     "description": "Regular expression to match an HTML title.",
     "main": "build",
     "scripts": {
